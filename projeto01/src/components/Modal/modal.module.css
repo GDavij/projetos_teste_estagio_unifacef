@@ -1,0 +1,33 @@
+.modal-wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  background: #0005;
+}
+
+.modal {
+  width: 50%;
+  height: fit-content;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 1px 1px 10px 2px #0005;
+  z-index: 3;
+  margin: auto auto;
+}
+
+@media screen and (max-width: 640px) {
+  .modal {
+    border-radius: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+}

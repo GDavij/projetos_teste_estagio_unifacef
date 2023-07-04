@@ -1,0 +1,146 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card {
+  height: fit-content;
+  background: #fff;
+  box-shadow: 2px 2px 10px 1px #0005;
+  border-radius: 12px;
+}
+
+.card-task {
+  width: 40%;
+  height: fit-content;
+  padding: 0.5rem;
+  background: #fff;
+  border-left: 2px solid #55f;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: end;
+}
+
+.flex-shrink {
+  flex-shrink: 1;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.w-1-2 {
+  width: 50%;
+}
+
+.sm-w-90 {
+  width: inherit;
+}
+@media screen and (max-width: 640) {
+  .sm-w-90 {
+    width: 90%;
+  }
+}
+
+.text-overflow-elipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.description-container {
+  background: #eee;
+  padding: 1rem;
+}
+
+.description-title {
+  font-weight: bold;
+  color: #55f;
+}
