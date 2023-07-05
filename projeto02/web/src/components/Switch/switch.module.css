@@ -1,0 +1,29 @@
+.switch-wrapper {
+  width: 8rem;
+  height: 2rem;
+}
+.switch {
+  appearance: none;
+  background: #95f;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.switch::before {
+  position: absolute;
+  transform: translate(0, -50%);
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.switch:checked {
+  appearance: none;
+  background: #95f;
+  width: 100%;
+  height: 100%;
+}

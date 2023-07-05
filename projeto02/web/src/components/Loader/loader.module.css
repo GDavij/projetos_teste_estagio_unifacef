@@ -1,0 +1,10 @@
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-infinite {
+  font-size: 4rem;
+  animation: 1s rotate infinite;
+}

@@ -1,0 +1,35 @@
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 6rem;
+  background: #708090;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.avatar-wrapper {
+  background: #55f4;
+  padding: 1rem;
+  border-radius: 12px;
+}
+.avatar {
+  display: block;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  color: #90f;
+}
+
+.title-wrapper {
+}
